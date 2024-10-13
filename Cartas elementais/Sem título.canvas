@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"3d564e25647aebcf","x":-140,"y":284,"width":250,"height":50,"color":"4","type":"text","text":"Grama"},
+		{"id":"7776d548d3048422","x":-140,"y":-1080,"width":250,"height":60,"type":"text","text":"Eletricidade"},
+		{"id":"286792976555f2f9","x":800,"y":-445,"width":250,"height":60,"type":"text","text":"Ar"},
+		{"id":"47f991761300f35d","x":800,"y":334,"width":250,"height":60,"type":"text","text":"Agua"},
+		{"id":"043f537e1581e855","x":-915,"y":394,"width":250,"height":60,"type":"text","text":"Terra"},
+		{"id":"7c3fbedfce3630d0","x":-1080,"y":20,"width":250,"height":60,"color":"4","type":"text","text":"Magma"},
+		{"id":"b4cd397c84f6cf7d","x":925,"y":-70,"width":250,"height":60,"color":"4","type":"text","text":"Gelo"},
+		{"id":"afadb681332445cf","x":-755,"y":-741,"width":250,"height":60,"color":"4","type":"text","text":"plasma"},
+		{"id":"1de69b2bc1093e43","x":480,"y":-741,"width":250,"height":60,"color":"4","type":"text","text":"SOM"},
+		{"id":"af5c0da05b9eca2d","x":-140,"y":-440,"width":250,"height":50,"color":"4","type":"text","text":"Combustão"},
+		{"id":"728e7cf4e69118b7","x":-140,"y":-155,"width":250,"height":50,"color":"4","type":"text","text":"Vapor"},
+		{"id":"bd50300338d0f66a","x":-140,"y":50,"width":250,"height":50,"color":"4","type":"text","text":"Dust/fumaça/areia/"},
+		{"id":"b928f88a0932e8a9","x":480,"y":-105,"width":250,"height":50,"color":"4","type":"text","text":"Tempestade"},
+		{"id":"55056754bc360e99","x":-630,"y":-130,"width":250,"height":60,"color":"4","type":"text","text":"Metal - magnetismo"},
+		{"id":"98863cec167b9e85","x":-1165,"y":-360,"width":250,"height":60,"type":"text","text":"Fogo"}
+	],
+	"edges":[
+		{"id":"d471f722cfc88945","fromNode":"98863cec167b9e85","fromSide":"bottom","toNode":"7c3fbedfce3630d0","toSide":"top"},
+		{"id":"8fe452721124291f","fromNode":"043f537e1581e855","fromSide":"top","toNode":"7c3fbedfce3630d0","toSide":"bottom"},
+		{"id":"e9eb517210dc3121","fromNode":"043f537e1581e855","fromSide":"right","toNode":"3d564e25647aebcf","toSide":"left"},
+		{"id":"6d175e5ddff99799","fromNode":"47f991761300f35d","fromSide":"left","toNode":"3d564e25647aebcf","toSide":"right"},
+		{"id":"ff2f83c4455116ee","fromNode":"98863cec167b9e85","fromSide":"right","toNode":"af5c0da05b9eca2d","toSide":"left"},
+		{"id":"524f58a70fe2a826","fromNode":"286792976555f2f9","fromSide":"left","toNode":"af5c0da05b9eca2d","toSide":"right"},
+		{"id":"bc156a712a3d0005","fromNode":"47f991761300f35d","fromSide":"top","toNode":"b4cd397c84f6cf7d","toSide":"bottom"},
+		{"id":"5a0ee54b793937d7","fromNode":"286792976555f2f9","fromSide":"bottom","toNode":"b4cd397c84f6cf7d","toSide":"top"},
+		{"id":"ff0b52a537f1a423","fromNode":"043f537e1581e855","fromSide":"right","toNode":"bd50300338d0f66a","toSide":"left"},
+		{"id":"411c74d99585e9f6","fromNode":"98863cec167b9e85","fromSide":"right","toNode":"728e7cf4e69118b7","toSide":"left"},
+		{"id":"ffe84274130a210f","fromNode":"286792976555f2f9","fromSide":"left","toNode":"bd50300338d0f66a","toSide":"right"},
+		{"id":"3c9718c52b34767e","fromNode":"47f991761300f35d","fromSide":"left","toNode":"728e7cf4e69118b7","toSide":"right"},
+		{"id":"4c8c85e1d489ca6a","fromNode":"98863cec167b9e85","fromSide":"top","toNode":"afadb681332445cf","toSide":"bottom"},
+		{"id":"933658ffee9090df","fromNode":"7776d548d3048422","fromSide":"bottom","toNode":"afadb681332445cf","toSide":"top"},
+		{"id":"cd483f9746b956d1","fromNode":"7776d548d3048422","fromSide":"bottom","toNode":"55056754bc360e99","toSide":"top"},
+		{"id":"74bc34d5cce2ecca","fromNode":"7776d548d3048422","fromSide":"bottom","toNode":"1de69b2bc1093e43","toSide":"top"},
+		{"id":"ea32596d2268ac96","fromNode":"1de69b2bc1093e43","fromSide":"bottom","toNode":"286792976555f2f9","toSide":"top"},
+		{"id":"6f8916b5a45488a8","fromNode":"7776d548d3048422","fromSide":"bottom","toNode":"b928f88a0932e8a9","toSide":"top"},
+		{"id":"9e1a359b6d3b82ac","fromNode":"47f991761300f35d","fromSide":"top","toNode":"b928f88a0932e8a9","toSide":"bottom"},
+		{"id":"1ef529fcba6348cd","fromNode":"043f537e1581e855","fromSide":"top","toNode":"55056754bc360e99","toSide":"bottom"}
+	]
+}
